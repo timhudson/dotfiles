@@ -1,0 +1,5 @@
+brew "visual-studio-code"
+cask "google-chrome"
+cask "hyper"
+cask "slack"
+cask "spotify"

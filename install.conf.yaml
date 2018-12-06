@@ -1,0 +1,20 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.gitconfig:
+    ~/.gitignore_global:
+    ~/.zsh:
+    ~/.zshrc:
+
+- shell:
+    - ./macos
+    - ./brew
+    - ./npm
+
+- brewfile:
+    - Brewfile
