@@ -2,19 +2,26 @@
     link:
       create: true
       relink: true
+    shell:
+      stdout: true
+      stderr: true
 
 - clean: ['~']
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
 
 - link:
     ~/.gitconfig:
     ~/.gitignore_global:
+    ~/.shell:
     ~/.zsh:
     ~/.zshrc:
 
-- shell:
-    - ./macos
-    - ./brew
-    - ./npm
-
 - brewfile:
     - Brewfile
+
+- shell:
+    - ./macos
+    - ./npm
+

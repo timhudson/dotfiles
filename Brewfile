@@ -1,5 +1,5 @@
-brew "visual-studio-code"
-cask "google-chrome"
+brew "nvm"
+cask "dropbox"
+cask "visual-studio-code"
 cask "hyper"
-cask "slack"
 cask "spotify"

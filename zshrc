@@ -1,3 +1,5 @@
+# Aliases
+source ~/.shell/aliases.sh
+
 # Prompt
-autoload -U promptinit; promptinit
-prompt pure
+source ~/.zsh/prompt.zsh
