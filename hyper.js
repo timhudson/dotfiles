@@ -27,7 +27,7 @@ module.exports = {
       letterSpacing: 0,
   
       // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
-      cursorColor: 'rgba(248,28,229,0.8)',
+      cursorColor: '#dc6aa3',
   
       // terminal text color under BLOCK cursor
       cursorAccentColor: '#000',
@@ -43,7 +43,7 @@ module.exports = {
   
       // terminal background color
       // opacity is only supported on macOS
-      backgroundColor: '#000',
+      backgroundColor: '#313131',
   
       // terminal selection color
       selectionColor: 'rgba(248,28,229,0.3)',
@@ -73,17 +73,17 @@ module.exports = {
       // including the 6 x 6 color cubes and the grayscale map, just provide
       // an array here instead of a color map object
       colors: {
-        black: '#000000',
-        red: '#C51E14',
-        green: '#1DC121',
-        yellow: '#C7C329',
-        blue: '#0A2FC4',
-        magenta: '#C839C5',
-        cyan: '#20C5C6',
+        black: '#313131',
+        red: '#ec3e3d',
+        green: '#35d297',
+        yellow: '#f3ef63',
+        blue: '#0888c8',
+        magenta: '#dc6aa3',
+        cyan: '#15c8dc',
         white: '#C7C7C7',
         lightBlack: '#686868',
         lightRed: '#FD6F6B',
-        lightGreen: '#67F86F',
+        lightGreen: '#6df3c9',
         lightYellow: '#FFFA72',
         lightBlue: '#6A76FB',
         lightMagenta: '#FD7CFC',
@@ -137,7 +137,7 @@ module.exports = {
     //   `hyperpower`
     //   `@company/project`
     //   `project#1.0.1`
-    plugins: ["hyper-snazzy"],
+    // plugins: ["hyper-snazzy"],
   
     // in development, you can create a directory under
     // `~/.hyper_plugins/local/` and include it here
