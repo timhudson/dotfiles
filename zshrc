@@ -1,3 +1,5 @@
+clear
+
 # Allow local customizations in the ~/.shell_local_before file
 if [ -f ~/.shell_local_before ]; then
     source ~/.shell_local_before
@@ -9,7 +11,10 @@ source ~/.shell/aliases.sh
 # Functions
 source ~/.shell/functions.sh
 
-# Prompt
+# Zsh Settings
+source ~/.zsh/settings.zsh
+
+# Zsh Prompt
 source ~/.zsh/prompt.zsh
 
 # Allow local customizations in the ~/.shell_local_after file

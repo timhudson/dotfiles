@@ -8,7 +8,4 @@ nvm install --lts
 nvm alias default lts/*
 
 npm install -g \
-  now \
-  pure-prompt \
-  serve \
   trash-cli
