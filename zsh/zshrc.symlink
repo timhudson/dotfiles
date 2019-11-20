@@ -38,3 +38,8 @@ do
 done
 
 unset config_files
+
+# Placing the following comment to force the fnm homebrew tap
+# to skip the shell script update
+#
+# fnm
