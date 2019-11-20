@@ -1,4 +1,5 @@
 brew "starship"
+brew "Schniz/tap/fnm"
 tap "homebrew/cask-fonts"
 cask "font-fira-code"
 cask "signal"
