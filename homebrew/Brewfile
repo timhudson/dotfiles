@@ -1,5 +1,4 @@
 brew "starship"
-brew "nvm"
 cask "font-fira-code"
 cask "dropbox"
 cask "figma"
