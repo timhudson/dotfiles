@@ -1,4 +1,4 @@
-brew "schniz/tap/fnm"
+brew "Schniz/tap/fnm"
 brew "starship"
 tap "homebrew/cask-fonts"
 cask "font-fira-code"
