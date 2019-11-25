@@ -1,3 +1,4 @@
+brew "hub"
 brew "Schniz/tap/fnm"
 brew "starship"
 tap "homebrew/cask-fonts"
