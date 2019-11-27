@@ -1,0 +1,10 @@
+goto () {
+  local LOCAL_PATH="$PROJECTS/$1"
+  local GITHUB_URL="git@github.com:$1.git"
+
+  if [ ! -d "$LOCAL_PATH" ]; then
+    git clone "$GITHUB_URL" "$LOCAL_PATH"
+  fi
+
+  cd "$LOCAL_PATH"
+}

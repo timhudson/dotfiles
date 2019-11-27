@@ -1,7 +1,8 @@
-clear
-
 # shortcut to this dotfiles path is $ZSH
 export ZSH=$HOME/.dotfiles
+
+# your projects folder that we can `goto [tab]` to
+export PROJECTS=~/dev/github.com
 
 # Stash your environment variables in ~/.localrc. This means they'll stay out
 # of your main dotfiles repository (which may be public, like this one), but
