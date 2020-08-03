@@ -1,3 +1,4 @@
+brew "git-extras"
 brew "hub"
 brew "Schniz/tap/fnm"
 brew "starship"
