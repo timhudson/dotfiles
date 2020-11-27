@@ -3,6 +3,8 @@
 
 [user]
 	useConfigOnly = true
+	email = tim.hudson15@gmail.com
+	name = Tim Hudson
 
 [core]
 	excludesfile = ~/.gitignore_global
