@@ -1,5 +1,5 @@
 # fnm
-eval "$(fnm env --multi)"
+eval "$(fnm env)"
 
 # Hub
 export GPG_TTY=`tty`
