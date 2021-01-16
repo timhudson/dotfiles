@@ -40,6 +40,8 @@ done
 
 unset config_files
 
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 # Placing the following comment to force the fnm homebrew tap
 # to skip the shell script update
 #
