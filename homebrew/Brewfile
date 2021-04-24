@@ -1,6 +1,6 @@
 brew "zsh-autosuggestions"
 brew "git-extras"
-brew "hub"
+brew "gh"
 brew "fnm"
 brew "starship"
 brew "yarn"
