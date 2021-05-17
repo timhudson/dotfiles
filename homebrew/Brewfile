@@ -1,4 +1,5 @@
 brew "zsh-autosuggestions"
+brew "geth"
 brew "git-extras"
 brew "gh"
 brew "fnm"
