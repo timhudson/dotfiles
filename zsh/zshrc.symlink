@@ -47,3 +47,5 @@ unset config_files
 # to skip the shell script update
 #
 # fnm
+
+complete -o nospace -C /opt/homebrew/bin/terraform terraform
