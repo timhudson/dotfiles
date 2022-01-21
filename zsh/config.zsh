@@ -2,8 +2,12 @@ export LSCOLORS="exfxcxdxbxegedabagacad"
 export CLICOLOR=true
 
 # Load custom functions
-fpath=($ZSH/functions $fpath)
-autoload -U $ZSH/functions/*(:t)
+fpath=(
+  $ZSH/functions
+  "$(brew --prefix)/share/zsh/site-functions"
+  $fpath
+)
+autoload -Uz $ZSH/functions/*(:t)
 
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
