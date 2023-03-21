@@ -1,6 +1,14 @@
 goto () {
-  local LOCAL_PATH="$PROJECTS/$1"
-  local GITHUB_URL="git@github.com:$1.git"
+  # Prepend DEFAULT_GITHUB_ORG to the provided argument if it doesn't contain a slash
+  local ORG=${1%%/*}
+  local REPO=${1##*/}
+
+  if [ "$ORG" = "$REPO" ]; then
+    ORG="$DEFAULT_GITHUB_ORG"
+  fi
+
+  local LOCAL_PATH="$PROJECTS/$ORG/$REPO"
+  local GITHUB_URL="git@github.com:$ORG/$REPO.git"
 
   if [ ! -d "$LOCAL_PATH" ]; then
     git clone "$GITHUB_URL" "$LOCAL_PATH"

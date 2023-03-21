@@ -3,6 +3,7 @@ export ZSH=$HOME/.dotfiles
 
 # your projects folder that we can `goto [tab]` to
 export PROJECTS=~/dev/github.com
+export DEFAULT_GITHUB_ORG="timhudson"
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
