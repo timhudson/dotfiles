@@ -10,7 +10,7 @@
 	excludesfile = ~/.gitignore_global
 
 [include]
-	path = ~/.gitignore.local
+	path = ~/.gitconfig_local
 
 [pull]
 	ff = only
