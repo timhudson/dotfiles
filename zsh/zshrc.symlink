@@ -49,3 +49,4 @@ unset config_files
 #
 # fnm
 
+eval "$(atuin init zsh)"
