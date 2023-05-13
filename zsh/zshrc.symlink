@@ -5,8 +5,9 @@ export ZSH=$HOME/.dotfiles
 export PROJECTS=~/dev/github.com
 export DEFAULT_GITHUB_ORG="timhudson"
 
-eval "$(/opt/homebrew/bin/brew shellenv)"
-source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+eval "$(brew shellenv)"
+source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+FPATH="$HOMEBREW_PREFIX/share/zsh/site-functions:${FPATH}"
 
 # Stash your environment variables in ~/.localrc. This means they'll stay out
 # of your main dotfiles repository (which may be public, like this one), but

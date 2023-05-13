@@ -26,7 +26,7 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 # fast keyboard repeat rate
 defaults write -g KeyRepeat -int 1
-defaults write -g InitialKeyRepeat -int 15
+defaults write -g InitialKeyRepeat -int 5
 
 # expand print panel by default
 defaults write -g PMPrintingExpandedStateForPrint -bool true
