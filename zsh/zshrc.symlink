@@ -49,5 +49,3 @@ unset config_files
 # to skip the shell script update
 #
 # fnm
-
-eval "$(atuin init zsh)"
