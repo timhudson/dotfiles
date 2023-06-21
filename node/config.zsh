@@ -1,0 +1,1 @@
+source $HOME/.copilot-aliases.zsh

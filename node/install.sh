@@ -23,6 +23,4 @@ packages=(
 npm install -g "${packages[@]}"
 
 # Set up GitHub Copilot CLI aliases
-# Storing these in a file in the dotfiles repo so they can be versioned.
-# We'll update the aliases upon install, but may need to commit changes if necessary
-echo "$(github-copilot-cli alias -- "$0")" > copilot-aliases.zsh
+echo "$(github-copilot-cli alias -- "$0")" > $HOME/.copilot-aliases.zsh
