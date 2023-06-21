@@ -1,4 +1,17 @@
 goto () {
+  # If no arguments are provided, perform fuzzy search
+  if [ "$#" -eq 0 ]; then
+    # Use fzf to perform fuzzy search
+    local REPO=$(find $PROJECTS -maxdepth 3 -name ".git" | awk -F'/' '{print $(NF-2)"/"$(NF-1)}' | fzf)
+
+    # If a repo is selected, change to that directory
+    if [ -n "$REPO" ]; then
+      cd "$REPO"
+    fi
+
+    return
+  fi
+
   # Prepend DEFAULT_GITHUB_ORG to the provided argument if it doesn't contain a slash
   local ORG=${1%%/*}
   local REPO=${1##*/}
