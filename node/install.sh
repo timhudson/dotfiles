@@ -21,6 +21,3 @@ packages=(
 )
 
 npm install -g "${packages[@]}"
-
-# Set up GitHub Copilot CLI aliases
-echo "$(github-copilot-cli alias -- "$0")" > $HOME/.copilot-aliases.zsh

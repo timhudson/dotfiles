@@ -1,1 +1,1 @@
-source $HOME/.copilot-aliases.zsh
+eval "$(github-copilot-cli alias -- "$0")"
