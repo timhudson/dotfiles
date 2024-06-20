@@ -9,15 +9,8 @@ then
   exit 1
 fi
 
-NODE_VERSION=18
+NODE_VERSION=20
 
 fnm install $NODE_VERSION
 fnm default $NODE_VERSION
 fnm use default
-
-# Install global NPM packages
-packages=(
-  @githubnext/github-copilot-cli
-)
-
-npm install -g "${packages[@]}"
